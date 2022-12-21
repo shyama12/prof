@@ -30,6 +30,8 @@ h2 {
     overflow: hidden;
     object-position: center;
     background-image: url("ShyamaPP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
