@@ -23,15 +23,16 @@ h2 {
 }
 
 .profile-pic {
-    width: 100px;
-    height: 100px;
     border: 1px solid rgb(0, 188, 163);
     border-radius: 50%;
     overflow: hidden;
+    object-fit: cover;
     object-position: center;
-    background-image: url("ShyamaPP.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.profile-pic > img {
+    width: 100px;
+    height: 100px;
 }
 
 
